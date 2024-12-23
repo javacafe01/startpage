@@ -1,83 +1,89 @@
 /* Base */
 
 * {
-  color: whitesmoke;
-  font-size: 12px;
-  font-family: monospace;
-  background-color: #201F22;
+    color: whitesmoke;
+    font-size: 12px;
+    font-family: monospace;
+    background-color: #242424;
 }
 
 body {
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 25% 0;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 25% 0;
 }
 
 input {
-  border: none;
-} :focus {
-  outline: none;
+    border: none;
+}
+:focus {
+    outline: none;
 }
 
 ul {
-  list-style: square;
+    list-style: square;
 }
 
 a {
-  color: whitesmoke;
+    color: whitesmoke;
 }
 
 a:hover {
-  color: antiquewhite;
+    color: antiquewhite;
 }
 
 /* Grid */
 
 .row {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 10px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
 }
-    
+
 .column {
-  flex: 1;
-  padding: 10px;
+    flex: 1;
+    padding: 10px;
 }
 
 /* Dividers */
 
 .box {
-  border: 2px solid whitesmoke;
+    border: 2px solid whitesmoke;
 }
 
 .underline {
-  border-bottom: 2px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
 }
 
 /* Misc */
 
 #art {
-  height: 100%;
-  width: auto;
+    height: 100%;
+    width: auto;
+}
+
+#art-pre {
+    font-size: 4px;
 }
 
 #weather {
-  min-height: 120px;
+    min-height: 120px;
 }
 
-#poem, #author {
-  display: flex;
-  margin: 0 auto;
-  min-height: 50px;
-  text-align: center;
-  justify-content: center;
+#poem,
+#author {
+    display: flex;
+    margin: 0 auto;
+    min-height: 50px;
+    text-align: center;
+    justify-content: center;
 }
 
 .search {
-  width: 100%;
-  margin: 0 10px;
+    width: 100%;
+    margin: 0 10px;
 }

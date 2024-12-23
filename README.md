@@ -1,6 +1,6 @@
-# LinkSake's Startpage
+# startpage
 
-Minimal startpage based on several startpages I saw on [r/startpages](https://www.reddit.com/r/startpages/comments/12bobou/my_first_custom_start_page/).
+Minimal startpage copied and forked from [LinkSake/startpage](https://github.com/LinkSake/startpage). All credits go to them, the original developer.
 
 ## Sections
 
@@ -8,15 +8,8 @@ Minimal startpage based on several startpages I saw on [r/startpages](https://ww
 - Date and time: Current time and date.
 - Weather: Request to [wttr.in](https://wttr.in/) to get the current weather on my city.
 - Links: Some frequently accesed links.
-- Poem: Request to [PoetryDB](https://poetrydb.org/index.html) to get a random short poem.
 - Art: Some ASCII Art of a paper crane.
 
 ## Live Demo
 
-[https://linksake.github.io/startpage/](https://linksake.github.io/startpage/)
-
-## TODOs
-
-- Make the art displayed random, haven't found an existing db or api of ascii art yet.
-- Make the mobile layout nicer
-
+[https://javacafe01.github.io/startpage/](https://javacafe01.github.io/startpage/)
